@@ -15,9 +15,10 @@ function App() {
   return (
     <>
       <Navbar />
-
-
-      <Routes>
+     
+      {/* <Pricing/> */}
+ 
+       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
 
@@ -26,11 +27,14 @@ function App() {
         <Route path="/program" element={<Program />} />
 
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/view" element={<Details />} />
-        <Route path="/knowmore" element={<Knowmore/>}/>
-      </Routes>
-
-      {/*  */}
+       <Route path="/view" element={<Details />} />
+        <Route path="/knowmore" element={<Knowmore />} />
+      </Routes> 
+      <Home />
+      <About/>
+      <Program/>
+      {/* <SignUp/> */}
+       
       <Footer />
 
 

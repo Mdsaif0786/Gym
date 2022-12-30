@@ -1,4 +1,11 @@
 .more{
     color: green;
-    overflow: visible;
+    /* overflow: visible; */
+    /* border: 5px solid red; */
+    width: 600px;
+    margin: 50px;
+}
+h3{
+    color: red;
+    margin-bottom: 10px;
 }

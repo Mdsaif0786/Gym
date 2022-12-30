@@ -12,6 +12,7 @@ const myStyle = {
   fontSize: '50px',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
+  
 
 };
 
@@ -20,7 +21,7 @@ export default function Home() {
     <>
 
 
-      <div style={myStyle}>
+      <div className='tex' style={myStyle}>
 
         <div className='homeBody'>
           <h4> MAKE YOU A BODY <span>BUILDER</span>  </h4>

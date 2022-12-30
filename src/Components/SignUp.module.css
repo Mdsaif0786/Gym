@@ -25,7 +25,14 @@
 }
 
 .element {
-    background-color: beige;
+    /* background-color: beige; */
     padding: 10px;
+    align-items: center;
     /* background-color: aqua; */
+
 }
+/* .sign{
+    align-items: center;
+    position: absolute;
+    left: 200px;
+} */

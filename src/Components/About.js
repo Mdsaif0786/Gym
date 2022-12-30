@@ -10,8 +10,9 @@ function About() {
     <>
       <div className={style.info}>
         <div>
-          <video src={videoBg} autoPlay />
+          <video src={videoBg} autoPlay controls/>
         </div>
+       
         <div className={style.container}>
           <ul>
             <li className={style.first}>  <FaArrowAltCircleRight /> Choice Your service</li><br />
